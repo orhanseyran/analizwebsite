@@ -60,14 +60,14 @@ i{
                             <div class="header-info">
                                 <ul class="rbt-information-list">
                                     <li>
-                                        <a href="#"><i class="fab fa-instagram"></i>100k <span class="d-none d-xxl-block">Followers</span></a>
+                                        <a href="#"><i class="fab fa-instagram"></i>100k <span class="d-none d-xxl-block">Takipci</span></a>
                                     </li>
                                     <li>
-                                        <a href="#"><i class="fab fa-facebook-square"></i>500k <span class="d-none d-xxl-block">Followers</span></a>
+                                        <a href="#"><i class="fab fa-youtube"></i>35k <span class="d-none d-xxl-block">Takipci</span></a>
                                     </li>
-                                    <li>
+                                    {{-- <li>
                                         <a href="#"><i class="feather-phone"></i>+1-202-555-0174</a>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </div>
                             <!-- End Header Information List  -->

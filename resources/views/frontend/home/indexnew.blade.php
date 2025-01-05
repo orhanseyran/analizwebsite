@@ -4,13 +4,48 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home - Online Courses & Education Bootstrap5 Template</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
+    <title>Harbigol.com - Güncel İddaa Analizleri ve Tahminler</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Harbigol.com, en güncel iddaa analizleri, maç tahminleri ve bahis stratejileri sunan lider platformdur. Kazanma şansınızı artırmak için uzman analizlerimize göz atın.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets2/images/favicon.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Harbigol.com - Güncel İddaa Analizleri ve Tahminler">
+    <meta property="og:description" content="Harbigol.com, en güncel iddaa analizleri, maç tahminleri ve bahis stratejileri sunan lider platformdur. Kazanma şansınızı artırmak için uzman analizlerimize göz atın.">
+    <meta property="og:image" content="https://harbigol.com/assets2/images/og-image.png">
+    <meta property="og:url" content="https://harbigol.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Harbigol.com - Güncel İddaa Analizleri ve Tahminler">
+    <meta name="twitter:description" content="Harbigol.com, en güncel iddaa analizleri, maç tahminleri ve bahis stratejileri sunan lider platformdur. Kazanma şansınızı artırmak için uzman analizlerimize göz atın.">
+    <meta name="twitter:image" content="https://harbigol.com/assets2/images/twitter-image.png">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsOrganization",
+      "name": "Harbigol.com",
+      "url": "https://harbigol.com",
+      "logo": "https://harbigol.com/assets2/images/logo.png",
+      "description": "Harbigol.com, en güncel iddaa analizleri, maç tahminleri ve bahis stratejileri sunan lider platformdur.",
+      "sameAs": [
+        "https://www.facebook.com/harbigol",
+        "https://www.twitter.com/harbigol",
+        "https://www.instagram.com/harbigol"
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://harbigol.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 
     <!-- CSS
 	============================================ -->
