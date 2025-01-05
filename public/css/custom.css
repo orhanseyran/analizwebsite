@@ -1,0 +1,174 @@
+#header .nav-icon .icon {
+         color: white;
+         font-size: 18px;
+         font-weight: 500;
+     }
+     @media (min-width: 768px) {
+         .logo-header img {
+             width: 60px ;
+         }
+     }
+     #header .box-nav-ul .item-link {
+         color: white;
+         font-size: 16px;
+         font-weight: 500;
+         display: flex
+     ;
+         align-items: center;
+         gap: 7px;
+         -webkit-transition: all 0.3s ease;
+         -moz-transition: all 0.3s ease;
+         -ms-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+         transition: all 0.3s ease;
+         position: relative;
+     }
+     .container{
+         max-width: 1400px;
+     }
+     .tf-compare-list .tf-compare-head .title {
+         font-size: 18px;
+         font-weight: 500;
+         color: #000;
+     }
+     @media (max-width: 775.98px) {
+         .logo-header .logo {
+             width: 50px !important;
+         }
+     }
+     @media (max-width: 1150px) {
+         .custom-search {
+             display: none !important;
+         }
+     }
+     p{
+        color: white;
+     }
+     h6{
+        color: white;
+     }
+
+     .footer .footer-menu_item {
+        color: white;
+        line-height: 30px;
+    }
+    .footer .footer-infor ul li p a {
+        color: white;
+        font-weight: 700;
+    }
+    .footer .footer-heading h6 {
+        color: white;
+
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+     /* Flexbox düzeni için */
+.match-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.table>:not(caption)>*>* {
+    padding: .1rem .1rem;
+    color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
+    background-color: var(--bs-table-bg);
+    border-bottom-width: var(--bs-border-width);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+}
+.tf-social-icon .social-line {
+    color: white;
+    border: 1px solid var(--main);
+}
+
+/* Mobil cihazlarda yan yana gösterim */
+@media (max-width: 768px) {
+    .match-info {
+        flex-direction: row;
+        gap: 10px; /* Elemanlar arasında boşluk */
+    }
+
+    .team-info {
+        display: flex;
+        align-items: center;
+        gap: 5px; /* Logo ve metin arasında boşluk */
+    }
+}
+       /* Takım Logoları */
+       .team-logo {
+                 width: 20px;
+                 height: 20px;
+                 margin-right: 10px;
+                 border-radius: 50%;
+                 object-fit: cover;
+                 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+             }
+     
+             /* Türk Bayrağı */
+             .flag {
+                 width: 30px;
+                 height: 20px;
+                 margin-left: 10px;
+             }
+     
+             /* Durum İkonları */
+             .status-icon {
+                 display: inline-block;
+                 width: 15px;
+                 height: 15px;
+                 border-radius: 50%;
+             }
+     
+             .status-icon.live {
+                 background-color: red;
+                 animation: pulse 1.5s infinite;
+             }
+     
+             .status-icon.upcoming {
+                 background-color: gray;
+             }
+     
+             @keyframes pulse {
+                 0% {
+                     transform: scale(1);
+                 }
+                 50% {
+                     transform: scale(1.3);
+                 }
+                 100% {
+                     transform: scale(1);
+                 }
+             }
+     
+             /* Analiz Butonu */
+             .btn-analysis {
+                 background-color: #6f42c1;
+                 color: white;
+                 border: none;
+                 font-size: 1.1rem;
+                 padding: 10px 20px;
+                 display: block;
+                 margin: 0 auto;
+                 text-align: center;
+                 border-radius: 8px;
+                 transition: all 0.3s ease-in-out;
+             }
+     
+             .btn-analysis:hover {
+                 background-color: #5a3599;
+                 transform: scale(1.05);
+                 color: #fff;
+             }
+     
+             /* Favori İkonu */
+             .favorite-icon {
+                 font-size: 1.5rem;
+                 color: #ffcc00;
+                 cursor: pointer;
+                 transition: color 0.3s ease-in-out;
+             }
+     
+             .favorite-icon:hover {
+                 color: #ffa500;
+             }
